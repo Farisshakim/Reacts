@@ -1,0 +1,35 @@
+/* src/components/WhyChooseUs.css */
+.why-choose-us {
+  padding: 5rem 0;
+  background-color: var(--secondary-color);
+}
+
+.why-choose-us-container {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.why-choose-us-image {
+  flex: 1;
+}
+
+.why-choose-us-image img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.why-choose-us-content {
+  flex: 1;
+}
+
+.why-choose-us-content .section-title {
+  text-align: left;
+  margin-top: 0;
+}
+
+.features-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}

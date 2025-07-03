@@ -1,0 +1,21 @@
+/* src/components/Button.css */
+.btn {
+  padding: 12px 28px;
+  border-radius: 50px;
+  border: none;
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #4a7522;
+  transform: translateY(-2px);
+}
