@@ -13,11 +13,11 @@ const TestimonialSection = () => {
           <div className="testimonial-card">
             <FaQuoteLeft className="quote-icon" />
             <blockquote>
-              The quality of the vegetables is outstanding! I've never tasted tomatoes so fresh. The delivery is always on time. Highly recommended for everyone who values real, healthy food.
+              Nikel hasil bumi raja ampat enak banget loh ya.
             </blockquote>
             <cite>
-              <h4>Justin Mason</h4>
-              <p>Regular Customer</p>
+              <h4>Lil Bahlil</h4>
+              <p>Regular Customer From Yellow Fraction</p>
             </cite>
           </div>
         </div>

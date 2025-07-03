@@ -11,7 +11,7 @@ const HeroSection = () => {
         <div className="hero-text">
           <h1>Fresh. Organic. Sustainable.</h1>
           <p>We deliver fresh, locally grown organic produce right to your doorstep. Taste the difference of real food.</p>
-          <Button>Shop Our Produce</Button>
+          <Button>Shop Our Product</Button>
         </div>
         <div className="hero-image">
           <img src={HeroImage} alt="Fresh vegetables" />

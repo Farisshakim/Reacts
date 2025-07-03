@@ -15,7 +15,6 @@ import leafyGreensImage from './assets/leafy-greens.jpg';
 import carrotsImage from './assets/carrots.jpg';
 import bellPeppersImage from './assets/bell-peppers.jpg';
 import cucumbersImage from './assets/cucumbers.jpg';
-
 import './App.css'; 
 
 // Data statis untuk produk (nantinya bisa dari API)
