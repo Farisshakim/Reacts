@@ -1,11 +1,12 @@
-// src/components/ProductCard.jsx
+// File: src/components/ProductCard.jsx
 import React from 'react';
 import { FiShoppingCart } from 'react-icons/fi';
+import Card from './Card'; 
 import './ProductCard.css';
 
 const ProductCard = ({ product }) => {
   return (
-    <div className="product-card">
+    <Card>
       <img src={product.imageUrl} alt={product.name} className="product-image" />
       <div className="product-info">
         <h3 className="product-name">{product.name}</h3>
@@ -13,7 +14,7 @@ const ProductCard = ({ product }) => {
           <FiShoppingCart />
         </button>
       </div>
-    </div>
+    </Card>
   );
 };
 
