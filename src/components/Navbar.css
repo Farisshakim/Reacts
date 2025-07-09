@@ -37,3 +37,30 @@
 .nav-links a:hover {
   color: var(--primary-color);
 }
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.theme-toggle-btn {
+  background: none;
+  border: none;
+  color: var(--text-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.theme-toggle-btn:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+body[data-theme='dark'] .theme-toggle-btn:hover {
+  background-color: rgba(255,255,255,0.1);
+}
